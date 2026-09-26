@@ -11,9 +11,12 @@ Completed:
 - Explicit type arguments
 - Multiple type parameters
 - `Function<T, R>`
+- Type parameter bounds
+- Upper bounds
+- Multiple bounds
 
 Current:
-- Type parameter bounds
+- Wildcards — `? extends`
 
 ### Preparation cadence
 Adjusted to a faster breadth-plus-depth model:

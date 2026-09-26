@@ -157,25 +157,58 @@ where the same type relationship is usually maintained.
 
 ---
 
-## 6. Next: Bounds
+## 6. Bounds
 
-### Type parameter bound
+### Type parameter bounds
 
 ```java
 <T extends Number>
 ```
 
-This restricts T to `Number` or a subtype.
+This restricts T to `Number` or a subtype. Without a bound, T is effectively `<T extends Object>`.
 
-Example:
+The bound lets you call methods declared on the bound type:
 
 ```java
 public static <T extends Number> double toDouble(T value) {
-    return value.doubleValue();
+    return value.doubleValue();  // safe — Number has doubleValue()
 }
 ```
 
-This is the next topic to study in detail.
+### Upper bounds
+
+```java
+public static <T extends Comparable<T>> T max(T a, T b) {
+    return a.compareTo(b) >= 0 ? a : b;
+}
+```
+
+The bound `Comparable<T>` guarantees `compareTo` is available. Without it, the compiler has no way to compare.
+
+### Multiple bounds
+
+A type parameter can have multiple bounds using `&`:
+
+```java
+<T extends Comparable<T> & Serializable>
+```
+
+Rules:
+- At most one class bound (must come first)
+- Any number of interface bounds
+- Separated by `&`, not `,`
+
+```java
+public static <T extends Number & Comparable<T>> T clamp(T val, T min, T max) {
+    if (val.compareTo(min) < 0) return min;
+    if (val.compareTo(max) > 0) return max;
+    return val;
+}
+```
+
+Mental model: `&` means "and also implements" — T must satisfy all bounds simultaneously.
+
+### Next: Wildcards — `? extends`
 
 ---
 

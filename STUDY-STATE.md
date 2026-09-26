@@ -15,22 +15,22 @@ Last updated: 2026-09-26
 - Explicit type arguments
 - Multiple type parameters
 - `Function<T, R>`
+- Type parameter bounds
+- Upper bounds
+- Multiple bounds
 
 ### Current subtopic
-**Bounds — `<T extends ...>`**
+**Wildcards — `? extends`**
 
 ### Next sequence
-1. Type parameter bounds
-2. Upper bounds
-3. Wildcards
-4. `? extends`
-5. `? super`
-6. PECS
-7. Type erasure
-8. Erasure limitations
-9. Bridge methods — conceptual
-10. Common interview traps
-11. Move to Collections
+1. `? extends`
+2. `? super`
+3. PECS
+4. Type erasure
+5. Erasure limitations
+6. Bridge methods — conceptual
+7. Common interview traps
+8. Move to Collections
 
 ## Recently completed
 

@@ -1,5 +1,15 @@
 # Progress Log
 
+## 2026-09-27
+
+### Generics
+- `? extends` — upper-bounded wildcards complete
+
+Current:
+- `? super`
+
+---
+
 ## 2026-09-26
 
 ### Generics

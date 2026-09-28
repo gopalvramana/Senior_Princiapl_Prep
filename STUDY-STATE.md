@@ -1,6 +1,6 @@
 # Study State
 
-Last updated: 2026-09-26
+Last updated: 2026-09-27
 
 ## Current focus
 
@@ -18,14 +18,14 @@ Last updated: 2026-09-26
 - Type parameter bounds
 - Upper bounds
 - Multiple bounds
+- `? extends`
 
 ### Current subtopic
-**Wildcards — `? extends`**
+**Wildcards — `? super`**
 
 ### Next sequence
-1. `? extends`
-2. `? super`
-3. PECS
+1. `? super`
+2. PECS
 4. Type erasure
 5. Erasure limitations
 6. Bridge methods — conceptual

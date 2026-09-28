@@ -208,7 +208,46 @@ public static <T extends Number & Comparable<T>> T clamp(T val, T min, T max) {
 
 Mental model: `&` means "and also implements" — T must satisfy all bounds simultaneously.
 
-### Next: Wildcards — `? extends`
+### Wildcards — `? extends` (upper-bounded)
+
+`?` is a wildcard — an unknown type. `? extends T` means "some unknown type that is T or a subtype of T."
+
+Key distinction from type parameters: a wildcard does not name the type, so you cannot refer to it elsewhere.
+
+```java
+// Type parameter — names the type, can reuse it
+<T extends Number> T doubleIt(T val) { ... }
+
+// Wildcard — unknown type, read-only access
+double sum(List<? extends Number> nums) {
+    double total = 0;
+    for (Number n : nums) total += n.doubleValue();
+    return total;
+}
+```
+
+Why this matters — `List<Integer>` is NOT a subtype of `List<Number>`:
+
+```java
+List<Integer> ints = List.of(1, 2, 3);
+
+List<Number> nums = ints;             // COMPILE ERROR
+List<? extends Number> nums = ints;   // OK — wildcard allows it
+```
+
+The wildcard makes the list read-only for the element type:
+
+```java
+List<? extends Number> nums = ints;
+Number n = nums.get(0);   // OK — reading is safe
+nums.add(42);             // COMPILE ERROR — cannot add
+```
+
+Why you cannot add: the compiler does not know the actual type. The list could be `List<Double>` — adding an `Integer` would corrupt it.
+
+Mental model: `? extends` = "I will only read from this collection."
+
+### Next: `? super`
 
 ---
 

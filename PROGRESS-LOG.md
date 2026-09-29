@@ -1,5 +1,20 @@
 # Progress Log
 
+## 2026-09-28
+
+### Generics
+- `? super` — lower-bounded wildcards complete
+- PECS — Producer Extends, Consumer Super
+
+Key mental model locked:
+- Producer → `? extends` → safely read
+- Consumer → `? super` → safely write
+
+Current:
+- Type erasure
+
+---
+
 ## 2026-09-27
 
 ### Generics

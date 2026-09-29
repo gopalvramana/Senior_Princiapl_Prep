@@ -1,6 +1,6 @@
 # Study State
 
-Last updated: 2026-09-27
+Last updated: 2026-09-28
 
 ## Current focus
 
@@ -19,18 +19,18 @@ Last updated: 2026-09-27
 - Upper bounds
 - Multiple bounds
 - `? extends`
+- `? super`
+- PECS — Producer Extends, Consumer Super
 
 ### Current subtopic
-**Wildcards — `? super`**
+**Type Erasure**
 
 ### Next sequence
-1. `? super`
-2. PECS
-4. Type erasure
-5. Erasure limitations
-6. Bridge methods — conceptual
-7. Common interview traps
-8. Move to Collections
+1. Type erasure
+2. Erasure limitations
+3. Bridge methods — conceptual
+4. Common interview traps
+5. Move to Collections
 
 ## Recently completed
 

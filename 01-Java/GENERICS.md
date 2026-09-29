@@ -247,7 +247,63 @@ Why you cannot add: the compiler does not know the actual type. The list could b
 
 Mental model: `? extends` = "I will only read from this collection."
 
-### Next: `? super`
+### Wildcards — `? super` (lower-bounded)
+
+`? super T` means "some unknown type that is T or a supertype of T."
+
+You can safely **write** T values into a `? super T` collection — whatever the actual type is, it can hold a T:
+
+```java
+void addNumbers(List<? super Integer> dest) {
+    dest.add(1);    // OK — Integer fits into List<Integer>, List<Number>, or List<Object>
+    dest.add(42);   // OK
+}
+```
+
+But reading gives you only `Object` — the compiler cannot guarantee anything more specific:
+
+```java
+List<? super Integer> dest = new ArrayList<Number>();
+Object obj = dest.get(0);   // OK — but only as Object
+Integer n = dest.get(0);    // COMPILE ERROR
+```
+
+Mental model: `? super` = "I will only write into this collection."
+
+---
+
+## 7. PECS — Producer Extends, Consumer Super
+
+The rule for deciding which wildcard to use:
+
+```text
+Producer  → ? extends T  → you READ from it    → it produces T values
+Consumer  → ? super T    → you WRITE into it    → it consumes T values
+```
+
+The canonical example — copying elements from a source to a destination:
+
+```java
+public static <T> void copy(
+        List<? extends T> src,   // producer — read from
+        List<? super T> dest) {  // consumer — write into
+    for (T item : src) {
+        dest.add(item);
+    }
+}
+```
+
+Real-world usage in `Collections.sort`:
+
+```java
+static <T> void sort(List<T> list, Comparator<? super T> cmp)
+```
+
+The comparator is a consumer of T — it takes T values and compares them. `Comparator<? super T>` means a `Comparator<Number>` can sort a `List<Integer>`.
+
+When neither reading nor writing (both), use the exact type — no wildcard.
+
+### Next: Type erasure
 
 ---
 

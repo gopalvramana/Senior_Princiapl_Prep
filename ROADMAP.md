@@ -39,7 +39,9 @@ Avoid spending excessive time on syntax trivia or low-value API details. Use spa
 ### Status
 **In progress**
 
-Current topic: Generics
+Current topic: Collections
+
+Completed: Generics (type parameters, bounds, wildcards, PECS, type erasure, reifiable types, raw vs wildcard types)
 
 ---
 
@@ -317,7 +319,7 @@ Targeted concepts for financial / investment technology roles:
 
 ---
 
-## Current state — September 26, 2026
+## Current state — October 1, 2026
 
 | Area | Status |
 |---|---|
@@ -325,7 +327,8 @@ Targeted concepts for financial / investment technology roles:
 | CompletableFuture | Completed / Strong |
 | JVM Fundamentals | Partially completed / Parked |
 | Core Java | In progress |
-| Generics | Current |
+| Generics | Completed |
+| Collections | Current |
 | DSA | Started |
 | Spring / Backend | Not yet active |
 | Messaging | Not yet active |

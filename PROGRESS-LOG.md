@@ -1,5 +1,31 @@
 # Progress Log
 
+## 2026-10-01 — Generics completed
+
+Restarted Generics from the beginning for stronger conceptual mastery.
+
+Covered:
+- Generic classes, interfaces, and methods
+- Type inference and explicit type arguments
+- Type parameter bounds and multiple bounds
+- `? extends` and `? super`
+- Generic invariance
+- PECS
+- Reference type vs actual object type
+- `List<?>`
+- Type erasure
+- Erasure to Object / leftmost bound
+- Compiler-inserted casts
+- Why type erasure exists
+- `instanceof` limitations and reifiable types
+- Raw types vs wildcard types
+
+Generics is now considered complete at the current Senior/Principal interview-prep depth.
+
+Next: Collections.
+
+---
+
 ## 2026-09-28
 
 ### Generics

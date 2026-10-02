@@ -1,10 +1,10 @@
 # Study State
 
-Last updated: 2026-09-28
+Last updated: 2026-10-01
 
 ## Current focus
 
-**Core Java → Generics**
+**Core Java → Collections**
 
 ### Completed within Generics
 - Why generics exist
@@ -21,18 +21,29 @@ Last updated: 2026-09-28
 - `? extends`
 - `? super`
 - PECS — Producer Extends, Consumer Super
+- Type erasure
+- Erasure limitations
+- `instanceof` and reifiable types
+- Compiler-inserted casts
+- Reference type vs actual object type
+- Raw types vs wildcard types
 
 ### Current subtopic
-**Type Erasure**
+**Collections**
 
 ### Next sequence
-1. Type erasure
-2. Erasure limitations
-3. Bridge methods — conceptual
-4. Common interview traps
-5. Move to Collections
+1. Collections fundamentals
+2. List / Set / Map
+3. ArrayList / LinkedList
+4. HashMap / HashSet internals
+5. TreeMap / TreeSet
+6. Concurrent collections
+7. Collections interview traps
 
 ## Recently completed
+
+### Generics
+Complete at Senior/Principal interview-prep depth. Bridge methods not covered in depth — revisit as part of interview traps if needed.
 
 ### JMM / Concurrency
 Strong coverage:

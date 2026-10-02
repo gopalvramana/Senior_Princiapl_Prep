@@ -23,4 +23,4 @@ High.
 
 ## Status
 
-Not yet active.
+**In progress** — started 2026-10-01.

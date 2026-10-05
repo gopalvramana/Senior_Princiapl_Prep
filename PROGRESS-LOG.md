@@ -1,5 +1,31 @@
 # Progress Log
 
+## 2026-10-05 — Preparation depth strategy locked
+
+Reviewed and locked the preparation strategy. Key decision: preparation will no longer treat all Java topics with equal depth.
+
+Very Deep (primary differentiators):
+- System Design, Distributed Systems, Cloud Architecture, Kafka/Event-driven, Leadership/Behavioral
+
+Medium-Deep:
+- Java/Spring Boot, JVM/Concurrency, Databases, Backend Engineering
+
+Medium:
+- DSA (~40-50 foundational problems, pattern-focused), Collections, Generics
+
+Light:
+- Java API trivia, exhaustive low-value details
+
+Collections progress within this session:
+- List fundamentals — completed
+- ArrayList vs LinkedList — completed
+- Set fundamentals — conceptual pass done
+
+Current immediate sequence:
+Collections → HashMap internals → Concurrent Collections → Collections complete → System Design fundamentals
+
+---
+
 ## 2026-10-01 — Generics completed
 
 Restarted Generics from the beginning for stronger conceptual mastery.

@@ -4,6 +4,24 @@
 
 Be interview-ready by the end of January 2027 for backend-heavy Lead / Principal Engineer roles.
 
+## Priority of Preparation
+
+Preparation time and depth should be proportional to expected value in Senior/Principal interviews. Lower-ranked topics are not unimportant — they receive proportionally less depth.
+
+1. System Design / Architecture
+2. Distributed Systems
+3. AWS / Cloud Architecture
+4. Kafka / Event-driven Architecture
+5. Principal Leadership / Behavioral
+6. Java / Spring Boot / Backend
+7. JVM / Concurrency
+8. Databases
+9. DSA
+10. Collections / Generics
+11. Java API trivia
+
+See `STUDY-STATE.md` for the full depth strategy (Very Deep / Medium-Deep / Medium / Light).
+
 ## Study method
 
 For each topic:
@@ -319,22 +337,22 @@ Targeted concepts for financial / investment technology roles:
 
 ---
 
-## Current state — October 1, 2026
+## Current state — October 5, 2026
 
-| Area | Status |
-|---|---|
-| JMM + Concurrency | Completed / Strong |
-| CompletableFuture | Completed / Strong |
-| JVM Fundamentals | Partially completed / Parked |
-| Core Java | In progress |
-| Generics | Completed |
-| Collections | Current |
-| DSA | Started |
-| Spring / Backend | Not yet active |
-| Messaging | Not yet active |
-| Distributed Systems | Not yet active |
-| AWS / Cloud | Not yet active |
-| System Design | Not yet active |
-| Leadership | Not yet active |
-| Financial Domain | Not yet active |
-| Python / AI | Not yet active |
+| Area | Status | Depth |
+|---|---|---|
+| JMM + Concurrency | Completed / Strong | Medium-Deep |
+| CompletableFuture | Completed / Strong | Medium-Deep |
+| JVM Fundamentals | Partially completed / Parked | Medium-Deep |
+| Core Java | In progress | Medium |
+| Generics | Completed | Medium |
+| Collections | Current | Medium |
+| DSA | Started | Medium |
+| Spring / Backend | Not yet active | Medium-Deep |
+| Messaging / Kafka | Not yet active | Very Deep |
+| Distributed Systems | Not yet active | Very Deep |
+| AWS / Cloud | Not yet active | Very Deep |
+| System Design | Not yet active | Very Deep |
+| Leadership / Behavioral | Not yet active | Very Deep |
+| Financial Domain | Not yet active | Medium |
+| Python / AI | Not yet active | Light |

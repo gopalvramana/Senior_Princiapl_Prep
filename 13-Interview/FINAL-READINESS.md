@@ -1,51 +1,64 @@
 # Final Readiness
 
-## Final checklist
+## Lead Engineer / Technical Lead readiness
 
-### Java
-- [ ] Core Java
-- [ ] Generics
-- [ ] Collections
-- [ ] Streams
-- [ ] Concurrency
-- [ ] CompletableFuture
-- [ ] JVM
+### Java / Backend
+- [ ] Java/Spring Boot coding, debugging, and design decisions
+- [ ] REST API design and SOAP-to-REST modernization patterns
+- [ ] Generics, Collections, Streams — interview-ready
+- [ ] Concurrency, CompletableFuture — strong
+- [ ] JVM fundamentals — interview-ready
+- [ ] JPA/Hibernate, transactions, caching
 
-### Backend
-- [ ] Spring
-- [ ] Spring Boot
-- [ ] REST
-- [ ] JPA / Hibernate
-- [ ] Messaging
-- [ ] Distributed systems
+### Messaging / Integration
+- [ ] Kafka: partitions, consumer groups, ordering, delivery semantics, failure handling
+- [ ] IBM MQ: enterprise messaging patterns
+- [ ] Event-driven architecture and idempotency
 
-### Cloud
-- [ ] AWS
-- [ ] Containers
-- [ ] Kubernetes
-- [ ] Cloud architecture
+### Distributed Systems / Resilience
+- [ ] Resilience patterns: retries, timeouts, circuit breakers, bulkheads
+- [ ] Idempotency and distributed transactions
+- [ ] Observability, security, and production troubleshooting
 
-### Design
-- [ ] System design
-- [ ] Principal-level architecture
-- [ ] Case studies
+### Cloud / Infrastructure
+- [ ] AWS core services, IAM, VPC, CloudWatch
+- [ ] Containers and Kubernetes in production
+- [ ] Cloud architecture trade-offs
 
-### Coding
-- [ ] 40–50 foundational DSA problems
-- [ ] Pattern recognition
-- [ ] Timed practice
+### System Design
+- [ ] System design with explicit reliability, scalability, latency, consistency, and cost trade-offs
+- [ ] Case studies: payment system, order processing, notification platform, event ingestion
+- [ ] Financial-services system design (portfolio, transaction processing)
 
-### Leadership
-- [ ] Behavioral stories
-- [ ] Technical leadership
-- [ ] Stakeholder management
+### Coding / DSA
+- [ ] 40-50 foundational DSA problems with strong pattern recognition
+- [ ] Timed practice under interview conditions
 
-### Domain
-- [ ] Financial concepts
+### AI-Assisted Engineering
+- [ ] AI-assisted implementation and generated-code review
+- [ ] Copilot usage for legacy modernization — concrete examples and evidence
+- [ ] Validation strategy for AI-generated code
 
-### AI / Python
-- [ ] Python application development
-- [ ] AI integration
+### Leadership / Behavioral
+- [ ] Technical leadership in teams of experienced engineers
+- [ ] Behavioral stories with clear individual contributions and evidence-based outcomes
+- [ ] Stakeholder communication and influencing without authority
+
+### Financial-Services Domain
+- [ ] Transaction correctness and auditability
+- [ ] Relevant financial calculations and portfolio concepts
+
+---
+
+## Principal / Staff stretch readiness
+
+- [ ] Cross-team influence and reusable architecture
+- [ ] Long-term technical trade-offs and technology strategy
+- [ ] Broader engineering leverage and organizational impact
+- [ ] Architecture decision records and governance
+- [ ] Leading AI-assisted engineering adoption at scale (when evidence supports it)
+
+---
 
 ## Status
 

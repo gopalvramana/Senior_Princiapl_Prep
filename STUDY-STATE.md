@@ -1,6 +1,13 @@
 # Study State
 
-Last updated: 2026-10-05
+Last updated: 2026-10-22
+
+## Target calibration
+
+**Primary target:** Lead Software Engineer / Technical Lead in banking and financial services (Hyderabad, e.g. JPMorgan Chase).
+**Stretch:** Principal Engineer, Staff/Senior Staff, hands-on Technical Architect / Solution Architect.
+
+Evaluate roles by actual responsibilities and technical scope, not title alone. The preparation rigor and depth strategy are unchanged — this calibration makes preparation more selective and aligned, not easier.
 
 ## Current focus
 

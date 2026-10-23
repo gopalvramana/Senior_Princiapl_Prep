@@ -1,5 +1,22 @@
 # Progress Log
 
+## 2026-10-22 — Target calibration and scope alignment
+
+Calibrated the preparation target to Lead Software Engineer / Technical Lead roles in Hyderabad's banking and financial-services sector (e.g. JPMorgan Chase). Principal Engineer, Staff/Senior Staff, and Technical Architect retained as stretch targets.
+
+Key decisions:
+- Preparation rigor unchanged. More selective alignment, not easier.
+- Technical priorities calibrated toward: Java/Spring Boot, microservices, distributed systems, Kafka/IBM MQ, AWS/K8s, system design, databases, and technical leadership.
+- AI-assisted engineering added as a preparation area: Copilot usage, generated-code review, reusable patterns, and measuring productivity with evidence.
+- BofA SOAP-to-REST modernization recorded as a developing behavioral story (not a completed accomplishment).
+- Interview readiness split into Lead Engineer readiness checks and Principal/Staff stretch readiness.
+- Financial-services domain emphasis: transaction correctness and auditability.
+
+Current immediate sequence unchanged:
+Collections → HashMap internals → Concurrent Collections → Collections complete → System Design fundamentals
+
+---
+
 ## 2026-10-05 — Preparation depth strategy locked
 
 Reviewed and locked the preparation strategy. Key decision: preparation will no longer treat all Java topics with equal depth.

@@ -2,23 +2,25 @@
 
 ## Objective
 
-Be interview-ready by the end of January 2027 for backend-heavy Lead / Principal Engineer roles.
+Be interview-ready by the end of January 2027. Primary target: Lead Software Engineer / Technical Lead roles in banking and financial services (Hyderabad). Stretch: Principal Engineer, Staff/Senior Staff, hands-on Technical Architect.
 
 ## Priority of Preparation
 
-Preparation time and depth should be proportional to expected value in Senior/Principal interviews. Lower-ranked topics are not unimportant — they receive proportionally less depth.
+Preparation time and depth should be proportional to expected value in target-role interviews. Lower-ranked topics are not unimportant — they receive proportionally less depth.
 
 1. System Design / Architecture
-2. Distributed Systems
-3. AWS / Cloud Architecture
-4. Kafka / Event-driven Architecture
-5. Principal Leadership / Behavioral
-6. Java / Spring Boot / Backend
+2. Distributed Systems / Resilience / Production Troubleshooting
+3. AWS / Cloud Architecture / Containers / Kubernetes
+4. Kafka / IBM MQ / Event-driven Architecture / Enterprise Integration
+5. Technical Leadership / Behavioral
+6. Java / Spring Boot / Backend / REST API Design
 7. JVM / Concurrency
-8. Databases
-9. DSA
+8. Databases / Transactions / Consistency / Failure Handling
+9. DSA (pattern-focused, ~40-50 problems)
 10. Collections / Generics
-11. Java API trivia
+11. AI-assisted Engineering / AI Integration
+12. Financial-services Domain (transaction correctness, auditability)
+13. Java API trivia
 
 See `STUDY-STATE.md` for the full depth strategy (Very Deep / Medium-Deep / Medium / Light).
 
@@ -310,34 +312,53 @@ Targeted concepts for financial / investment technology roles:
 
 ---
 
-## Phase 13 — Python / AI Integration
+## Phase 13 — AI-Assisted Engineering / Python / AI Integration
 
+### AI-Assisted Software Engineering
+- Effective use of GitHub Copilot for legacy modernization
+- Reviewing AI-generated code: correctness, business-logic preservation, maintainability, security, standards
+- Establishing reusable project structures and implementation conventions
+- Breaking work into independently implementable components
+- Collaborating with testing owners on validation and regression coverage
+- AI-generated-code failure modes and appropriate human review
+- Measuring productivity and quality with evidence, not unsupported claims
+- Distinction: practical AI tool usage vs leading broader AI-assisted engineering adoption
+
+### LLM / RAG / AI Integration
 - Python fundamentals for application development
-- Python APIs
-- Data processing
-- AI integration
-- LLM APIs
-- RAG
-- Embeddings
-- Vector databases
+- LLM APIs and prompting
+- RAG architecture
+- Embeddings and vector databases (pgvector)
 - AI-assisted enterprise applications
+- Evaluation, cost control, and reliability
 
 ---
 
 ## Phase 14 — Interview Readiness
 
-- Java backend interviews
-- System design interviews
-- Principal-level architecture
-- Coding rounds
-- Behavioral / leadership
-- Mock interviews
-- Weak-area revision
-- Final readiness assessment
+### Lead Engineer / Technical Lead readiness
+- Java/Spring Boot coding, debugging, and design decisions
+- REST API design and SOAP-to-REST modernization
+- Kafka/IBM MQ integration and failure handling
+- Distributed-system resilience, idempotency, retries, timeouts, observability, security
+- AWS/Kubernetes architecture and production operations
+- System design with explicit reliability, scalability, latency, consistency, and cost trade-offs
+- AI-assisted implementation, generated-code review, and validation
+- Technical leadership in teams of experienced engineers
+- Behavioral stories with clear individual contributions and evidence-based outcomes
+- Financial-services correctness and auditability
+- Coding rounds (DSA pattern recognition under time pressure)
+- Mock interviews and weak-area revision
+
+### Principal / Staff stretch readiness
+- Cross-team influence and reusable architecture
+- Long-term technical trade-offs and technology strategy
+- Broader engineering leverage and organizational impact
+- Architecture decision records and governance
 
 ---
 
-## Current state — October 5, 2026
+## Current state — October 22, 2026
 
 | Area | Status | Depth |
 |---|---|---|
@@ -349,10 +370,11 @@ Targeted concepts for financial / investment technology roles:
 | Collections | Current | Medium |
 | DSA | Started | Medium |
 | Spring / Backend | Not yet active | Medium-Deep |
-| Messaging / Kafka | Not yet active | Very Deep |
+| Messaging / Kafka / IBM MQ | Not yet active | Very Deep |
 | Distributed Systems | Not yet active | Very Deep |
-| AWS / Cloud | Not yet active | Very Deep |
+| AWS / Cloud / K8s | Not yet active | Very Deep |
 | System Design | Not yet active | Very Deep |
-| Leadership / Behavioral | Not yet active | Very Deep |
+| Leadership / Behavioral | In progress (stories developing) | Very Deep |
 | Financial Domain | Not yet active | Medium |
-| Python / AI | Not yet active | Light |
+| AI-Assisted Engineering | Not yet active | Medium |
+| Python / AI Integration | Not yet active | Medium |
